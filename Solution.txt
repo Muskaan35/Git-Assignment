@@ -1,0 +1,37 @@
+
+1. Version Control System: A version control system (VCS) is software that, as the name suggests, controls the versions of the work. 
+   In much simpler words we can say that a version control system is a software that allows developers to work from a remote location on the same project simultaneously 
+   without interfering or overwriting on each other's work. This software also saves the work history i.e., the information about the changes made in the project.
+   There are 2 types of VCS:
+   1. Centralized VCS: Centralized version control system uses a central server to store all the work done.
+   2. Distributed VCS: Distributed version control system uses distributed repositories to store the work done.
+
+2. Git: Git is a open source, distributed version control and code management system that mainly emphasis keeping track of the modifications made. One can roll out to the previous version whenever required.
+
+   Life-cycle:  
+   1 Initialize the central repository: Primarily someone needs to initialize the central repository. In the case of a new project, one can initialize an empty 
+     repository.
+   2 Clone the central repository: Each developer creates a local copy of the project as a working repository using the clone command.
+   3 Editing: In the local copy of the project developer can make changes and do the editing by either adding or removing the file and then commits the changes made.
+   4 Push the changes: Once the changes are made in the local repo, developers can push the changes in the original/master repo to share them with other developers.
+   5 Review: One should review the changes before rolling them out in the master repository.
+   6 Commit: If everything seems ok, commit the changes in the master file.
+   7 Rollback: If any errors are reported after the changes, the developer can anytime rollback to the previous version.
+
+3. Git basic commands:
+   1. init: Create a new local repository.
+   2. add:  Add 1 or more file to staging.
+   3. commit: Commit changes to head but not to master repo.  
+   4. log: It helps to review and read all the activities that have taken place in the project.
+   5. clone: Create a working copy of a local repository. 
+   6. pull: Fetch and merge changes on the remote server to you working directory. 
+   7. push: Send changes to the master branch of your remote repository.
+   8. cherry-pick: Git allows you to integrate selected, individual commits from any branch into your current HEAD branch.
+   9. stash: The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use,
+             and then reverts them from your working copy.
+   10. branch: List all the branches in your repo, and also tell you what branch you're currently in.
+   11. reset: This command is used to undo the changes made in local working repo.
+   12. clean: Cleans the working tree by recursively removing files that are not under version control,
+              starting from the current directory.
+   13. squash: To "squash" in Git means to combine multiple commits into one. You can do this at any point in time.
+               Although there is no such thing as a stand-alone git squash command.
